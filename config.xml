@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.example.firefly" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>firefly</name>
+    <description>
+        A game that explores human living environment as a firefly at midnight.
+    </description>
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Lin Yang
+    </author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <engine name="ios" spec="~4.3.0" />
+    <preference name="Orientation" value="landscape" />
+    <icon gap:platform="ios" height="57" src="www/res/icons/ios/icon-57.png" width="57" />
+    <icon gap:platform="ios" height="72" src="www/res/icons/ios/icon-72.png" width="72" />
+    <icon gap:platform="ios" height="114" src="www/res/icons/ios/icon-57-2x.png" width="114" />
+    <icon gap:platform="ios" height="144" src="www/res/icons/ios/icon-72-2x.png" width="144" />
+    <icon gap:platform="ios" height="180" src="www/res/icons/ios/icon-60-3x.png" width="180" />
+
+    <splash gap:platform="ios" height="1242" src="www/res/splash/ios/screen-iphone-landscape-736.png" width="2208" />
+    
+</widget>
